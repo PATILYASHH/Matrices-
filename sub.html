@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Subtraction of Matrices</title>
+  <link rel="stylesheet" href="sub.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Subtraction of Matrices</h1>
+    <div class="matrix">
+      <h3>Matrix A</h3>
+      <div class="matrix-input">
+        <input type="number" id="A11" placeholder="0">
+        <input type="number" id="A12" placeholder="0">
+        <input type="number" id="A13" placeholder="0">
+        
+        <input type="number" id="A21" placeholder="0">
+        <input type="number" id="A22" placeholder="0">
+        <input type="number" id="A23" placeholder="0">
+        
+        <input type="number" id="A31" placeholder="0">
+        <input type="number" id="A32" placeholder="0">
+        <input type="number" id="A33" placeholder="0">
+
+      </div>
+    </div>
+    <div class="matrix">
+      <h3>Matrix B</h3>
+      <div class="matrix-input">
+        <input type="number" id="B11" placeholder="0">
+        <input type="number" id="B12" placeholder="0">
+        <input type="number" id="B13" placeholder="0">
+      
+        <input type="number" id="B21" placeholder="0">
+        <input type="number" id="B22" placeholder="0">
+        <input type="number" id="B23" placeholder="0">
+        
+        <input type="number" id="B31" placeholder="0">
+        <input type="number" id="B32" placeholder="0">
+        <input type="number" id="B33" placeholder="0">
+
+      </div>
+    </div>
+    <button onclick="subtractMatrices()">Subtract Matrices</button>
+    <div>
+      <h3>Result</h3>
+      <textarea id="result" readonly></textarea>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="sub.js">  </script>
+</body>
+
+</html>
